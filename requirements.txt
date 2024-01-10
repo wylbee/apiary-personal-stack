@@ -1,3 +1,0 @@
-mage-ai[clickhouse]
-mage-ai[google-cloud-storage]
-mage-ai[dbt]
