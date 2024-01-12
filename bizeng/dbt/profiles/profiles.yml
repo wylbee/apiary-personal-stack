@@ -1,0 +1,13 @@
+apiary_personal_stack:
+  outputs:
+    prod:
+      dataset: "{{ env_var('GCP_DATASET_ID') }}"
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      location: "{{ env_var('GCP_DATASET_LOCATION') }}"
+      method: oauth
+      priority: interactive
+      project: "{{ env_var('GCP_PROJECT_ID') }}"
+      threads: 16
+      type: bigquery
+  target: prod
