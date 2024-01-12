@@ -9,4 +9,4 @@
 # --------------
 
 
-exec yarn start
+#exec yarn start
